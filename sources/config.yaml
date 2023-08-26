@@ -1,0 +1,7 @@
+sources:
+  - LibreCaslonCondensed.glyphs
+  - LibreCaslonCondensed-Italic.glyphs
+buildVariable: true
+axisOrder:
+  - wght
+familyName: Libre Caslon Condensed
