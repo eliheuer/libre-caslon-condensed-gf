@@ -6,61 +6,13 @@ Fontbakery version: 0.8.13
 
 
 * 🔥 **FAIL** The most common tabular glyph width is 950. But there are other tabular glyphs with different widths such as the following ones:
-	{997: ['zero.tnum', 'one.tnum', 'two.tnum', 'three.tnum', 'four.tnum', 'five.tnum', 'six.tnum', 'seven.tnum', 'eight.tnum', 'nine.tnum', 'period.tnum', 'comma.tnum', 'colon.tnum', 'semicolon.tnum', 'periodcentered.tnum', 'numbersign.tnum', 'slash.tnum', 'underscore.tnum', 'quotedbl.tnum', 'quotesingle.tnum', 'cent.tnum', 'dollar.tnum', 'Euro.tnum', 'sterling.tnum', 'yen.tnum', 'plus.tnum', 'minus.tnum', 'multiply.tnum', 'divide.tnum', 'equal.tnum', 'greater.tnum', 'less.tnum', 'plusminus.tnum', 'percent.tnum', 'paragraph.tnum', 'section.tnum', 'degree.tnum', 'bar.tnum', 'zero.tnum', 'one.tnum', 'two.tnum', 'three.tnum', 'four.tnum', 'five.tnum', 'six.tnum', 'seven.tnum', 'eight.tnum', 'nine.tnum', 'period.tnum', 'comma.tnum', 'colon.tnum', 'semicolon.tnum', 'periodcentered.tnum', 'numbersign.tnum', 'slash.tnum', 'underscore.tnum', 'quotedbl.tnum', 'quotesingle.tnum', 'cent.tnum', 'dollar.tnum', 'Euro.tnum', 'sterling.tnum', 'yen.tnum', 'plus.tnum', 'minus.tnum', 'multiply.tnum', 'divide.tnum', 'equal.tnum', 'greater.tnum', 'less.tnum', 'plusminus.tnum', 'percent.tnum', 'paragraph.tnum', 'section.tnum', 'degree.tnum', 'bar.tnum']}. [code: inconsistent-widths]
-</div></details><br></div></details><details><summary><b>[13] LibreCaslonCondensed-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	{997: ['zero.tnum', 'one.tnum', 'two.tnum', 'three.tnum', 'four.tnum', 'five.tnum', 'six.tnum', 'seven.tnum', 'eight.tnum', 'nine.tnum', 'period.tnum', 'comma.tnum', 'colon.tnum', 'semicolon.tnum', 'periodcentered.tnum', 'numbersign.tnum', 'slash.tnum', 'underscore.tnum', 'quotedbl.tnum', 'quotesingle.tnum', 'paragraph.tnum', 'section.tnum', 'degree.tnum', 'bar.tnum', 'cent.tnum', 'dollar.tnum', 'Euro.tnum', 'sterling.tnum', 'yen.tnum', 'plus.tnum', 'minus.tnum', 'multiply.tnum', 'divide.tnum', 'equal.tnum', 'greater.tnum', 'less.tnum', 'plusminus.tnum', 'percent.tnum', 'zero.tnum', 'one.tnum', 'two.tnum', 'three.tnum', 'four.tnum', 'five.tnum', 'six.tnum', 'seven.tnum', 'eight.tnum', 'nine.tnum', 'period.tnum', 'comma.tnum', 'colon.tnum', 'semicolon.tnum', 'periodcentered.tnum', 'numbersign.tnum', 'slash.tnum', 'underscore.tnum', 'quotedbl.tnum', 'quotesingle.tnum', 'paragraph.tnum', 'section.tnum', 'degree.tnum', 'bar.tnum', 'cent.tnum', 'dollar.tnum', 'Euro.tnum', 'sterling.tnum', 'yen.tnum', 'plus.tnum', 'minus.tnum', 'multiply.tnum', 'divide.tnum', 'equal.tnum', 'greater.tnum', 'less.tnum', 'plusminus.tnum', 'percent.tnum']}. [code: inconsistent-widths]
+</div></details><br></div></details><details><summary><b>[12] LibreCaslonCondensed-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0327 (COMBINING CEDILLA)
- 
-
-	- 0x0328 (COMBINING OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -150,6 +102,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- hungarumlaut.cap
 
+	- i.loclTRK
+
 	- macron.cap
 
 	- nine.denominator
@@ -164,6 +118,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- one.denominator
 
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
+
 	- ring.cap
 
 	- seven.denominator
@@ -173,6 +131,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 	- six.numerator
 
 	- tilde.cap
+
+	- uni030C.alt
 
 	- zero.denominator 
 
@@ -203,6 +163,36 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
+	- Glyph name: gravecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -215,7 +205,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -333,7 +347,7 @@ multiply
 	* fi (U+FB01): L<<370.0,1049.0>--<598.0,1049.0>> -> L<<598.0,1049.0>--<891.0,1077.0>> 
 
 	* fi (U+FB01): L<<598.0,1049.0>--<891.0,1077.0>> -> L<<891.0,1077.0>--<914.0,1077.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[19] LibreCaslonCondensed-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] LibreCaslonCondensed-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -386,17 +400,12 @@ multiply
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libre Caslon Condensed Medium Italic | Libre Caslon Condensed Medium |
+| Family Name | Libre Caslon Condensed Medium | Libre Caslon Condensed Medium |
 | Subfamily Name | Regular | Italic |
 | Full Name | Libre Caslon Condensed Medium Italic | Libre Caslon Condensed Medium Italic |
 | Poscript Name | LibreCaslonCondensed-MediumItalic | LibreCaslonCondensed-MediumItalic |
 | Typographic Family Name | Libre Caslon Condensed | Libre Caslon Condensed |
 | Typographic Subfamily Name | Medium Italic | Medium Italic | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -409,7 +418,6 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table IDs 1, 2, 16, 17 to conform to Italic style. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/italic_names">com.google.fonts/check/name/italic_names</a>)</summary><div>
 
 
-* 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -469,7 +477,7 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Libre Caslon Condensed Medium Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Libre Caslon Condensed Medium' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
@@ -706,60 +714,12 @@ divide, minus
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* iogonek (U+012F): L<<245.0,10.0>--<372.0,89.0>>/B<<372.0,89.0>-<236.0,-51.0>-<159.0,-156.5>> = 13.946751611649468 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] LibreCaslonCondensed-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] LibreCaslonCondensed-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0327 (COMBINING CEDILLA)
- 
-
-	- 0x0328 (COMBINING OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -842,6 +802,8 @@ divide, minus
 
 	- hungarumlaut.cap
 
+	- i.loclTRK
+
 	- macron.cap
 
 	- nine.denominator
@@ -856,6 +818,10 @@ divide, minus
 
 	- one.denominator
 
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
+
 	- ring.cap
 
 	- seven.denominator
@@ -865,6 +831,8 @@ divide, minus
 	- six.numerator
 
 	- tilde.cap
+
+	- uni030C.alt
 
 	- zero.denominator 
 
@@ -893,6 +861,36 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
+	- Glyph name: gravecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -903,7 +901,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -966,60 +988,12 @@ divide
 	* st (U+FB06): X=1055.5,Y=1524.5 (should be at cap-height 1523?) 
 
 	* st (U+FB06): X=999.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[14] LibreCaslonCondensed-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] LibreCaslonCondensed-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0327 (COMBINING CEDILLA)
- 
-
-	- 0x0328 (COMBINING OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1109,6 +1083,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- hungarumlaut.cap
 
+	- i.loclTRK
+
 	- macron.cap
 
 	- nine.denominator
@@ -1123,6 +1099,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- one.denominator
 
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
+
 	- ring.cap
 
 	- seven.denominator
@@ -1132,6 +1112,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 	- six.numerator
 
 	- tilde.cap
+
+	- uni030C.alt
 
 	- zero.denominator 
 
@@ -1162,6 +1144,36 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
+	- Glyph name: gravecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
 	- Glyph name: OE	Contours detected: 1	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -1174,7 +1186,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1323,7 +1359,7 @@ divide
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* OE (U+0152): B<<1009.0,69.0>-<991.0,58.0>-<972.0,49.0>>/L<<972.0,49.0>--<1106.0,88.0>> = 9.118814898431209 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[16] LibreCaslonCondensed-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] LibreCaslonCondensed-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1369,11 +1405,6 @@ divide
 
 	- 0x0328 (COMBINING OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1537,7 +1568,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 864:
-greater, less
+less, greater
 
 Width = 764:
 equal
@@ -1653,7 +1684,7 @@ divide, minus
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* iogonek (U+012F): L<<202.0,0.0>--<341.0,89.0>>/B<<341.0,89.0>-<207.0,-50.0>-<123.5,-164.5>> = 13.418317466805592 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[19] LibreCaslonCondensed-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] LibreCaslonCondensed-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1706,17 +1737,12 @@ divide, minus
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | Libre Caslon Condensed SemiBold Italic | Libre Caslon Condensed SemiBold |
+| Family Name | Libre Caslon Condensed SemiBold | Libre Caslon Condensed SemiBold |
 | Subfamily Name | Regular | Italic |
 | Full Name | Libre Caslon Condensed SemiBold Italic | Libre Caslon Condensed SemiBold Italic |
 | Poscript Name | LibreCaslonCondensed-SemiBoldItalic | LibreCaslonCondensed-SemiBoldItalic |
 | Typographic Family Name | Libre Caslon Condensed | Libre Caslon Condensed |
 | Typographic Subfamily Name | SemiBold Italic | SemiBold Italic | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
 
 
@@ -1729,7 +1755,6 @@ divide, minus
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table IDs 1, 2, 16, 17 to conform to Italic style. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/italic_names">com.google.fonts/check/name/italic_names</a>)</summary><div>
 
 
-* 🔥 **FAIL** Name ID 1 (Family Name) must not contain 'Italic'. [code: bad-familyname]
 * 🔥 **FAIL** Name ID 2 (Subfamily Name) does not conform to specs. Only R/I/B/BI are allowed.
 Got: 'Regular'. [code: bad-subfamilyname]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -1789,7 +1814,7 @@ Got: 'Regular'. [code: bad-subfamilyname]
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Libre Caslon Condensed SemiBold Italic' / SUBFAMILY_NAME = 'Regular'
+ FONT_FAMILY_NAME = 'Libre Caslon Condensed SemiBold' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
@@ -1895,7 +1920,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 851:
-greater, less
+less, greater
 
 Width = 801:
 equal
@@ -1965,60 +1990,12 @@ multiply
 	* ffi (U+FB03): L<<517.0,970.0>--<514.0,961.0>> -> L<<514.0,961.0>--<351.0,396.0>> 
 
 	* ffl (U+FB04): L<<516.0,970.0>--<513.0,961.0>> -> L<<513.0,961.0>--<351.0,396.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[12] LibreCaslonCondensed-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] LibreCaslonCondensed-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0327 (COMBINING CEDILLA)
- 
-
-	- 0x0328 (COMBINING OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2108,6 +2085,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- hungarumlaut.cap
 
+	- i.loclTRK
+
 	- macron.cap
 
 	- nine.denominator
@@ -2122,6 +2101,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- one.denominator
 
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
+
 	- ring.cap
 
 	- seven.denominator
@@ -2131,6 +2114,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 	- six.numerator
 
 	- tilde.cap
+
+	- uni030C.alt
 
 	- zero.denominator 
 
@@ -2159,6 +2144,36 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
+	- Glyph name: gravecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: acutecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: tildecomb	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -2169,7 +2184,31 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni0302	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0304	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0308	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -2276,7 +2315,7 @@ divide
 	* uni2089 (U+2089): X=385.5,Y=2.0 (should be at baseline 0?) 
 
 	* ffi (U+FB03): X=1268.0,Y=1522.5 (should be at cap-height 1523?) [code: found-misalignments]
-</div></details><br></div></details><details><summary><b>[18] LibreCaslonCondensed-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] LibreCaslonCondensed-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2322,32 +2361,6 @@ divide
 
 	- 0x0328 (COMBINING OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | Libre Caslon Condensed Bold | Libre Caslon Condensed |
-| Subfamily Name | Italic | Bold Italic |
-| Full Name | Libre Caslon Condensed Bold Italic | Libre Caslon Condensed Bold Italic |
-| Poscript Name | LibreCaslonCondensed-BoldItalic | LibreCaslonCondensed-BoldItalic |
-| Typographic Family Name | Libre Caslon Condensed | N/A |
-| Typographic Subfamily Name | Bold Italic | N/A | [code: bad-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1977, but got 1940 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 611, but got 520 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking head.macStyle value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/mac_style">com.google.fonts/check/mac_style</a>)</summary><div>
-
-
-* 🔥 **FAIL** head macStyle BOLD bit should be set. [code: bad-BOLD]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 fsSelection BOLD bit should be set. [code: bad-BOLD]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2405,7 +2418,7 @@ divide
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Libre Caslon Condensed Bold' / SUBFAMILY_NAME = 'Italic'
+ FONT_FAMILY_NAME = 'Libre Caslon Condensed' / SUBFAMILY_NAME = 'Bold Italic'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
@@ -2511,7 +2524,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 845:
-greater, less
+less, greater
 
 Width = 820:
 equal
@@ -2631,8 +2644,8 @@ multiply
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 28 | 95 | 946 | 51 | 729 | 0 |
-| 0% | 2% | 5% | 51% | 3% | 39% | 0% |
+| 0 | 17 | 95 | 942 | 49 | 746 | 0 |
+| 0% | 1% | 5% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
