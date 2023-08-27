@@ -65467,6 +65467,7 @@ instanceInterpolations = {
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 0.33333;
 master01 = 0.66667;
 };
+isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
@@ -65478,6 +65479,7 @@ instanceInterpolations = {
 "D3934E74-9B53-4E98-B19F-CD3DFEE08352" = 0.66667;
 master01 = 0.33333;
 };
+isItalic = 1;
 linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
